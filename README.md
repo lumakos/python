@@ -47,6 +47,7 @@ print "So, your name is %s" % name
 from sys import argv
 script, filename = argv
 
+# python .\test.py .\test.txt
 print "name file %r" % filename
 
 # assign object file
