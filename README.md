@@ -8,12 +8,6 @@ https://www.python.org/dev/peps/pep-0008/
 from sys import argv
 script, filename = argv
 
-txt = open(filename)
-
-# reading file
-print "the file's name is %r" % filename
-print txt.read()
-
 # script, first, second, third = argv
 
 # print "first argv", script
@@ -46,4 +40,26 @@ print "you are %s" % age
 name = raw_input("my name is? ")
 print "So, your name is %s" % name
 
+```
+
+<b>Read/Write File</b>
+```
+from sys import argv
+script, filename = argv
+
+print "name file %r" % filename
+
+# assign object file
+target = open(filename, 'w')
+# print target.read()
+
+# empty file
+target.truncate()
+
+# write 
+line1 = raw_input("line 1: ")
+target.write(line1)
+target.write("\n")
+line2 = raw_input("line 2: ")
+target.write(line2)
 ```
