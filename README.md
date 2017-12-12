@@ -5,6 +5,16 @@ https://www.python.org/dev/peps/pep-0008/
 ```
 
 ```
+# from sys import argv
+
+# script, first, second, third = argv
+
+# print "first argv", script
+# print "first argv", first
+# print "first argv", second
+# print "first argv", third
+# and run `python test.py first 2nd 3rd
+
 print "hello python"
 
 car = 'VW'
@@ -22,7 +32,11 @@ feafaf fafeaf
 
 print "\nHello"
 
-print "how old are you?"
-age = raw_input()
-print "you are %s" % age
+# print "how old are you?"
+# age = int(raw_input())
+# print "you are %s" % age
+
+name = raw_input("my name is? ")
+print "So, your name is %s" % name
+
 ```
