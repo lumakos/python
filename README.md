@@ -44,10 +44,10 @@ print "So, your name is %s" % name
 
 <b>Read/Write File</b>
 ```
+# python .\test.py .\test.txt
 from sys import argv
 script, filename = argv
 
-# python .\test.py .\test.txt
 print "name file %r" % filename
 
 # assign object file
@@ -66,6 +66,7 @@ target.write(line2)
 ```
 <b>Read/Write from one file to another</b>
 ```
+# python .\test.py .\test.txt .\test_write.txt
 from sys import argv
 from os.path import exists
 
