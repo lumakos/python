@@ -85,3 +85,17 @@ out_file.write(indata)
 out_file.close()
 in_file.close()
 ```
+
+<b>Functions</b>
+```
+def new_fucntion(arg1, arg2):
+    print "hello man, one arg is %s and the second one is %s" % (arg1, arg2)
+
+new_fucntion("toula", "yioula")
+
+def print_two(*args):
+    arg1, arg2 = args
+    print "arg1: %r, arg2: %r" % (arg1, arg2)
+
+print_two("yo 1", "yo 2")
+```
