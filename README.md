@@ -5,7 +5,14 @@ https://www.python.org/dev/peps/pep-0008/
 ```
 
 ```
-# from sys import argv
+from sys import argv
+script, filename = argv
+
+txt = open(filename)
+
+# reading file
+print "the file's name is %r" % filename
+print txt.read()
 
 # script, first, second, third = argv
 
@@ -32,9 +39,9 @@ feafaf fafeaf
 
 print "\nHello"
 
-# print "how old are you?"
-# age = int(raw_input())
-# print "you are %s" % age
+print "how old are you?"
+age = int(raw_input())
+print "you are %s" % age
 
 name = raw_input("my name is? ")
 print "So, your name is %s" % name
