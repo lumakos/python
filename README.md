@@ -124,3 +124,14 @@ rewind(current_file)
 current_line = 1
 print_a_line(current_line, current_file)
 ```
+
+<b>IF loop</b>
+```
+car = 1
+if car < 1: 
+    print "ok 1"
+elif car > 1:
+    print "ok 2"
+else:
+    print "ok 3"
+```
