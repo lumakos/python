@@ -136,7 +136,7 @@ else:
     print "ok 3"
 ```
 
-<b>For Loop</b>
+<b>FOR Loop</b>
 ```
 numbers = [1, 2, 3]
 
