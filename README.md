@@ -135,3 +135,11 @@ elif car > 1:
 else:
     print "ok 3"
 ```
+
+<b>For Loop</b>
+```
+numbers = [1, 2, 3]
+
+for number in numbers:
+    print "the number is %s" % number
+```
