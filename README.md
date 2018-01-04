@@ -143,3 +143,8 @@ numbers = [1, 2, 3]
 for number in numbers:
     print "the number is %s" % number
 ```
+
+<b>Using Python3 & Angular4</b>
+```
+http://devarea.com/building-a-simple-website-with-angular-4-and-django-and-deploy-it-to-heroku/#.Wk3ymt9l-Uk
+```
